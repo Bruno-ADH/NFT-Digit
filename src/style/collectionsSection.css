@@ -1,5 +1,5 @@
     .collection-card {
-    padding: 12px;
+    padding: .8rem;
     border-radius: 1.5rem;
   }
   
@@ -19,7 +19,7 @@
 
   .collection-card .wrapper {
     overflow: hidden;
-    border-radius: inherit;
+    border-radius: .7rem;
     aspect-ratio: 1/1;
 
 }
