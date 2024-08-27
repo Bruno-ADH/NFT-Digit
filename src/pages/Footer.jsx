@@ -19,10 +19,10 @@ const Footer = () => {
       </Row>  
       <Row className="justify-content-between align-items-center py-3 row-gap-2 border-0 border-top border-neutral-100">
         <Col xs={12} md={6} className="text-start text-md-start px-0">
-          <p className="h5 mb-0 text-neutral-600 fw-semibold">Create Explore & Collect Digital NFTs</p>
+          <p className="h5 mb-0 text-neutral-600 Raleway-SemiBold">Create Explore & Collect Digital NFTs</p>
         </Col>
         <Col xs={12} md={6} className="d-flex justify-content-center justify-content-md-end px-0">
-          <ul className="list-unstyled d-flex mb-0 fw-medium">
+          <ul className="list-unstyled d-flex mb-0 Raleway-Medium">
           {['Privacy', 'Terms & Conditions', 'About Us'].map((text, index) => (
                 <motion.li
                   key={index}

@@ -24,13 +24,13 @@ const ProfileSection = () => {
           className="card-img-overlay profile-content"
         >
           <h1
-            className="card-title fw-medium display-3"
+            className="card-title Raleway-Medium display-3"
           >Build your NFT profile</h1>
           <p
-            className="card-text fw-semibold"
+            className="card-text Raleway-SemiBold"
           >Join almost 10k NFT profiles on Digit!</p>
           <button
-            className="btn btn-outline-light py-2 px-4 fw-semibold"
+            className="btn btn-outline-light py-2 px-4 Raleway-SemiBold"
           >Sign up now</button>
         </div>
       </div>

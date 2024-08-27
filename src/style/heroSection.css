@@ -3,7 +3,7 @@
 }
 
 .hero-section h1 {
-    font-weight: 500;
+    font-family: 'Raleway-Medium', sans-serif;
     position: relative;
     z-index: 2;
     width: 70vw;
@@ -61,7 +61,7 @@
 @media only screen and (min-width: 992px) {
     .hero-section h1 {
         font-size: 7.50rem;
-        font-weight: 500;
+        font-family: 'Raleway-Medium', sans-serif;
         position: relative;
         z-index: 2;
         width: 130%;

@@ -42,21 +42,21 @@ const HeroSection = () => {
         <Row className="align-items-top">
           <Col md={6} className="text-left p-0 pt-3">
             <motion.h1
-              className="display-1 text-neutral-600 fw-normal p-0 m-0 text-start"
+              className="display-1 text-neutral-600 Raleway p-0 m-0 text-start"
               variants={textVariants}
               initial="hidden"
               animate="visible"
             >See the NFT new world
             </motion.h1>
             <motion.p
-              className="lead mt-4 text-neutral-400 fw-semibold text-start fs-6"
+              className="lead mt-4 text-neutral-400 Raleway-SemiBold text-start fs-6"
               variants={textVariants}
               initial="hidden"
               animate="visible"
             >Vorem ipsum dolor sit amet, consectetur adipiscing <br />elit. Etiam eu turpis molestie, di.
             </motion.p>
             <motion.button
-             className="px-0 mt-3 bg-transparent border-0 fw-semibold text-neutral-600"
+             className="px-0 mt-3 bg-transparent border-0 Raleway-SemiBold text-neutral-600"
              variants={buttonVariants}
               whileHover="hover"
               initial="hidden"
@@ -66,7 +66,7 @@ const HeroSection = () => {
             </motion.button>
           </Col>
           <Col md={6}
-            className="text-center text-md-end mt-sm-5 mt-md-3 mt-lg-0 pt-lg-4 pe-0"
+            className="text-center text-md-end mt-3 mt-lg-0 pt-lg-4 pe-0 "
           >
             <motion.div 
             className="hero-images h-100 p-lg-4 pb-lg-0 pe-lg-0"

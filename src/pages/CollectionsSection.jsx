@@ -26,15 +26,15 @@ const CollectionsSection = () => {
       <Container>
         <Row className="justify-content-between align-items-center">
           <Col md="auto">
-            <h2 className="fw-bold text-neutral-800">Our Collections</h2>
+            <h2 className="Raleway-Bold text-neutral-800">Our Collections</h2>
           </Col>
         </Row>
         <Row className="mb-3">
           {categories.map(category => (
-            <Col key={category} md="auto" className="mb-2 rounded-5">
+            <Col key={category} md="auto" className="mb-2 rounded-5 w-auto">
               <Button
                 variant={selectedCategory === category ? 'dark bg-neutral-600' : 'outline-dark btn-neutral-50 border-0 text-neutral-800 hover'}
-                className="fw-semibold rounded-3 selectedBtn"
+                className="Raleway-SemiBold rounded-3 selectedBtn"
                 onClick={() => {
                   setSelectedCategory(category);
                   setShowAll(false);
@@ -45,7 +45,7 @@ const CollectionsSection = () => {
             </Col>
           ))}
           <Col md="auto px-0 ms-auto">
-            <Button variant="link" className="text-dark fw-bold" onClick={() => setShowAll(!showAll)}>
+            <Button variant="link" className="text-dark Raleway-Bold" onClick={() => setShowAll(!showAll)}>
               {showAll ? 'Show less' : 'View more'}
             </Button>
           </Col>
@@ -77,11 +77,11 @@ const CollectionsSection = () => {
                     </div>
                     <Card.Body className="p-0">
                       <Row className='w-100 m-0 justify-content-between align-items-center my-3'>
-                        <Card.Title className="fs-6 fw-bold w-auto p-0 mb-0 text-neutral-800">{collection.title}</Card.Title>
+                        <Card.Title className="fs-6 Raleway-Bold w-auto p-0 mb-0 text-neutral-800">{collection.title}</Card.Title>
                         <img loading="lazy" src="src/assets/icons/ethereum-ellipse.svg" className="img-fluid m-0 p-0 ms-auto" alt="Logo" style={{ width: '24px', height: '24px' }} />
-                        <Card.Text className='fw-bold fs-6 w-auto p-0 ps-1 text-neutral-800'>{collection.price}</Card.Text>
+                        <Card.Text className='Raleway-Bold fs-6 w-auto p-0 ps-1 text-neutral-800'>{collection.price}</Card.Text>
                       </Row>
-                      <Button variant="outline-dark border-neutral-800 rounded-3 w-100 fw-semibold">Place a Bid</Button>
+                      <Button variant="outline-dark border-neutral-800 rounded-3 w-100 Raleway-SemiBold">Place a Bid</Button>
                     </Card.Body>
                   </Card>
                 </motion.div>

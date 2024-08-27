@@ -18,7 +18,7 @@ const Header = () => {
   }
 
   return (
-    <Navbar bg="white" expand="lg" sticky='top' expanded={state}>
+    <Navbar id="navbar-example2" bg="white" expand="lg" sticky='top' expanded={state}>
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -37,7 +37,7 @@ const Header = () => {
       >
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mx-auto fw-semibold">
+        <Nav className="mx-auto Raleway-SemiBold">
           {['Home', 'Top Sales', 'Collections', 'Our Blog', 'About Us'].map((link, index) => (
             <motion.div
               key={index}
@@ -51,7 +51,7 @@ const Header = () => {
             </motion.div>
           ))}
         </Nav>
-        <Nav className="ml-auto fw-semibold d-flex align-items-center">
+        <Nav className="ml-auto Raleway-SemiBold d-flex align-items-center">
           <div className="d-flex align-items-center justify-content-md-evenly">
             <motion.div
               initial={{ opacity: 0, y: -20 }}
