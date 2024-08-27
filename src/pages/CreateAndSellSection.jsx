@@ -22,7 +22,7 @@ const CreateAndSellSection = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ scale: 1.05, y: -10 }}
               >
-            <Card className="step-card text-center h-100 bg-neutral-50 p-1 shadow">
+            <Card className="step-card text-center h-100 bg-neutral-50 p-1 shadow-sm">
               <Card.Body>
                 <div className="icon-container me-auto mb-3 bg-neutral-600">
                   <img src={step.icon} alt="Icon" className="img-fluid" />

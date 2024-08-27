@@ -78,7 +78,7 @@ const HeroSection = () => {
                 loading="lazy"
                 width="100%"
                 height="100%"
-                src="src/assets/heroImg.svg"
+                src="/heroImg.svg"
                 alt="NFT Example 1"
                 className="img-fluid"
               />

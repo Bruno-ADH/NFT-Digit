@@ -78,7 +78,7 @@ const CollectionsSection = () => {
                     <Card.Body className="p-0">
                       <Row className='w-100 m-0 justify-content-between align-items-center my-3'>
                         <Card.Title className="fs-6 Raleway-Bold w-auto p-0 mb-0 text-neutral-800">{collection.title}</Card.Title>
-                        <img loading="lazy" src="src/assets/icons/ethereum-ellipse.svg" className="img-fluid m-0 p-0 ms-auto" alt="Logo" style={{ width: '24px', height: '24px' }} />
+                        <img loading="lazy" src="/icons/ethereum-ellipse.svg" className="img-fluid m-0 p-0 ms-auto" alt="Logo" style={{ width: '24px', height: '24px' }} />
                         <Card.Text className='Raleway-Bold fs-6 w-auto p-0 ps-1 text-neutral-800'>{collection.price}</Card.Text>
                       </Row>
                       <Button variant="outline-dark border-neutral-800 rounded-3 w-100 Raleway-SemiBold">Place a Bid</Button>

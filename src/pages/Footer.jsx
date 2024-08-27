@@ -14,7 +14,7 @@ const Footer = () => {
     <Container className="justify-content-center">
       <Row className="justify-content-start w-100">
       <Col xs={12} md={12} className="text-start text-md-start px-0 py-2">
-      <img src="src/assets/icons/logo.svg" className="img-fluid m-0" alt="Logo" style={{ width: '36px', height: '36px' }} />
+      <img src="/icons/logo.svg" className="img-fluid m-0" alt="Logo" style={{ width: '36px', height: '36px' }} />
         </Col>
       </Row>  
       <Row className="justify-content-between align-items-center py-3 row-gap-2 border-0 border-top border-neutral-100">

@@ -5,13 +5,13 @@
 }
 
 .collapsed .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("src/assets/icons/burger-icon.svg");
+  --bs-navbar-toggler-icon-bg: url("/icons/burger-icon.svg");
   background-size: contain;
   background-position: center;
 }
 
 .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url("src/assets/icons/burgerClose-icon.svg");
+  --bs-navbar-toggler-icon-bg: url("/icons/burgerClose-icon.svg");
   background-size: contain;
   background-position: center;
   transition: background-image .10s ease-in-out;

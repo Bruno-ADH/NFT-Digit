@@ -14,7 +14,7 @@ const ProfileSection = () => {
     >
       <div className="card border-0 profile-section rounded-5 bg-transparent">
         <Parallax
-          bgImage="src/assets/nftProfile.jpg"
+          bgImage="/nftProfile.jpg"
           strength={300}
           className="bg-neutral-800 profile-background rounded-5"
         >

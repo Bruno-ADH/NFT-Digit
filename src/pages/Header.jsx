@@ -27,7 +27,7 @@ const Header = () => {
       >
         <Navbar.Brand href="#home" className="ms-0 ntf"
         >
-          <img src="src/assets/icons/logo.svg" className="img-fluid" alt="Logo" style={{ width: '36px', height: '36px' }} />
+          <img src="/icons/logo.svg" className="img-fluid" alt="Logo" style={{ width: '36px', height: '36px' }} />
         </Navbar.Brand>
       </motion.div>
       <Navbar.Toggle
